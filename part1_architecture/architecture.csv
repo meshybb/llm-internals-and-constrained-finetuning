@@ -1,0 +1,11 @@
+model_id,hidden_size,num_layers,num_attention_heads,num_kv_heads,mlp_size,activation,norm_type,position_encoding,context_length,vocab_size,moe_details
+meta-llama/Llama-3.1-8B-Instruct,4096,32,32,8,14336,silu,RMSNorm,Llama 3 RoPE,131072,128256,NA
+mistralai/Mistral-7B-Instruct-v0.3,4096,32,32,8,14336,silu,RMSNorm,RoPE,32768,32768,NA
+Qwen/Qwen2.5-7B-Instruct,3584,28,28,4,18944,silu,RMSNorm,RoPE,32768,152064,NA
+allenai/OLMo-2-1124-7B-Instruct,4096,32,32,32,11008,silu,RMSNorm,RoPE,4096,100352,NA
+ibm-granite/granite-3.3-8b-instruct,4096,40,32,8,12800,silu,RMSNorm,RoPE,131072,49159,NA
+deepseek-ai/DeepSeek-V3,7168,61,128,128,18432,silu,RMSNorm,RoPE,163840,129280,"256 routed experts, 1 shared expert, 8 active per token"
+HuggingFaceTB/SmolLM2-1.7B-Instruct,2048,24,32,32,8192,silu,RMSNorm,RoPE,8192,49152,NA
+microsoft/Phi-4-mini-instruct,3072,32,24,8,8192,silu,RMSNorm,LongRoPE,131072,200064,NA
+tiiuae/Falcon3-7B-Instruct,3072,28,12,4,23040,silu,RMSNorm,RoPE,32768,131072,NA
+dicta-il/dictalm2.0-instruct,4096,32,32,8,14336,silu,RMSNorm,roPE,32768,33152,NA
